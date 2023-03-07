@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet href="style.css" type="text/css"?> -->
+<!DOCTYPE friendList  [
+<!ELEMENT friendList (friend,friend,friend)>
+<!ELEMENT friend (name,contact)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ENTITY writer "Donald Duck.">
+<!ENTITY copyright "Copyright W3Schools.">
+<!ATTLIST name id CDATA #REQUIRED>
+<!ATTLIST contact id CDATA #REQUIRED>
+]>
+<friendList>
+    <friend>
+        <name id="n1">&copyright;</name>
+        <contact id="c2">03001111111</contact>
+    </friend>
+    <friend>
+<name id="n2">Sadiq</name>
+<contact id="c1">&writer;</contact>
+    </friend>
+    <friend>
+       <name id="n3"> Hammad</name>
+       <contact id="c3">03003333333</contact>
+    </friend>
+</friendList>
